@@ -13,5 +13,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
-    - run:  pip install -r ./r.txt  #此处为安装依赖包
+    - run:  pip install -r ./requirements.txt  #此处为安装依赖包
     - run: python ./temperature.py  #此处为python代码的文件名
